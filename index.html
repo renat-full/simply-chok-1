@@ -5,11 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="container header-container">
-        <nav></nav>
+        <nav class="header-nav">
+          <a href="/index.html" class="logo-simply">SIMPLY CHOCOLATE</a>
+        </nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#Home" class="header-links">Home</a>
+          </li>
+          <li>
+            <a href="#How it's made?" class="header-links">How it's made?</a>
+          </li>
+          <li>
+            <a href="#Our products" class="header-links">Our products</a>
+          </li>
+          <li>
+            <a href="#Top sellers" class="header-links">Top sellers</a>
+          </li>
+          <li>
+            <a href="#Chocolate is loved" class="header-links"
+              >Chocolate is loved</a
+            >
+          </li>
+        </ul>
+        <svg class="header-svg-logo" width="24" height="24">
+          <use href="./img/icons.svg#icon-chocolate"></use>
+        </svg>
+        <svg class="header-social-liks" width="24" height="24">
+          <use href="./img/icons.svg#icon-instagram"></use>
+        </svg>
+        <svg class="header-social-liks" width="24" height="24">
+          <use href="./img/icons.svg#icon-twitter"></use>
+        </svg>
+        <button class="mobile-menu-open" data-mobile-open>
+          <svg>
+            <use href="./img/icons.svg#icon-menu-03-1"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open" data-menu>
+        <div class="container-mobile">
+          <button class="mobile-menu-close" data-menu-close>
+            <svg>
+              <use
+                href="./img/icons.svg#icon-x-close"
+                width="28"
+                height="28"
+              ></use>
+            </svg>
+          </button>
+          <ul>
+            <li>
+              <a href="#Home">Home</a>
+            </li>
+            <li>
+              <a href="#How it's made?">How it's made?</a>
+            </li>
+            <li>
+              <a href="#Our products">Our products</a>
+            </li>
+            <li>
+              <a href="Top sellers">Top sellers</a>
+            </li>
+            <li>
+              <a href="#Chocolate is loved">Chocolate is loved</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
   </body>
